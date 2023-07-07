@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+.navbar {
+  border: 3px solid #eea47f;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  background-color: #00539c;
+}
+
+#navbar__name {
+  display: inline-block;
+  color: white;
+  /* border: 5px solid green; */
+  width: 15%;
+  margin-right: 40%;
+  text-align: left;
+  font-size: 20px;
+}
+
+.navbar__list-item {
+  display: inline-block;
+  /* border: 5px solid blue; */
+  padding: 12px;
+  color: white;
+  font-size: 16px;
+}

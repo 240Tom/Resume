@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  border: solid rgb(241, 223, 223);
+  border-radius: 8px;
+}
+
+.hero {
+  height: 400px;
+  width: 100%;
+  background-color: #00539c;
+  text-align: center;
+  padding: 64px;
+  margin: auto;
+}
+
+.hero__intro {
+  font-size: small;
+  font-weight: bold;
+  font-style: italic;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #eea47f;
+}
+.hero__intro__paragraph {
+  font-size: larger;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+  color: #eea47f;
+}
+.resume__download {
+  border: none;
+  color: white;
+  background-color: #eea47f;
+  padding: 16px;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 32px;
+  text-decoration: none;
+  cursor: auto;
+}
+
+/* .resume__download:hover,
+.resume__download:active {
+  background-color: white;
+  color: black;
+} */
+
+.testimonial {
+  background-image: url(/HeroPage/assets/profilepic.JPG) contain;
+  background-color: #00539c;
+}
+.testimonial__image-container {
+  width: 55%;
+  display: inline-block;
+  vertical-align: middle;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0);
+}
+
+.testimonial__image {
+  width: 100%;
+  vertical-align: top;
+}
+
+.testimonial__info {
+  text-align: right;
+  padding: 14px;
+  display: inline-block;
+  vertical-align: middle;
+  width: 30%;
+  font-size: 30px;
+}
+
+.testimonial__name {
+  color: #eea47f;
+  margin: 3px;
+}
+
+.testimonial__text {
+  margin: 3px;
+  color: white;
+}
